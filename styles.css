@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(assets/fonts/ProximaNovaRegular.ttf);
+  }
+
+
+/* Reset */
+a, p, body, h1, h2 ,h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Defaults */
+
+p, h1, h2, h3 {
+    color: #124B47;
+    font-family: "Proxima Nova";
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0;
+}
+button {
+    text-align: center;
+    width: 247px;
+    height: 47px;
+    border-radius: 23px;
+    background-color: #295046;
+    color: #FFFFFF;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+/* Mobile */
+.header-wrapper {
+    margin-top: 1000px;
+}
+body {
+    padding: 60px 0 82px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 100%;
+}
+div {
+    border: solid 1px
+}
+h1 {
+    font-size: 27px;
+    line-height: 33px;
+    margin-top: 24px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 29px;
+    
+}
+h3 {
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+p {
+    font-size: 17px;
+    line-height: 26px;
+    color:  #000000;
+    margin-top: 16px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 24px;
+    width: 335px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 20px;
+    max-width: 1170px;
+}
+.hero-img {
+    /* max-height: 400px;
+    min-height: 197px; */
+    height: 200px;
+    width: auto;
+}
+
+.hero {
+    overflow: hidden;
+}
+.top-section, .bottom-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.top-section {
+    margin-top: 77px;
+    
+}
+
+.top-section .item.two {
+    margin-bottom: 50px;
+    margin: 50px 0;
+}
+
+
+
+.section-img {
+    width: 100%;
+}
+.categorie-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.categorie {
+    margin: 31px 15px 0 15px;
+    /* margin: 1 15px; */
+    /* flex: 1; */
+    /* margin: auto; */
+}
+.categorie-wrapper {
+    margin-top: 70px;
+}
+
+.categorie-p {
+    margin-top: 7px;
+}
+.categorie.one, .categorie.three {
+    /* margin-right: 25px; */
+}
+.categorie-img {
+    min-width: 152px;
+}
+
+
+
+.bottom-section {
+    margin-top: 70px;
+}
+.bottom-section .item {
+    margin-bottom: 50px;
+}
+p {
+    flex-grow: 1;
+}
+img {
+    display: block;
+}
+
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .hero-img {
+        /* max-height: 400px;
+        min-height: 197px; */
+        height: 400px;
+        width: auto;
+    }
+
+
+    .top-section .item {
+        flex: 1;
+        margin: 0;
+    }
+    .top-section .item.two {
+        margin: 0 25px;
+    }
+    
+    }
+    .bottom-section {
+        flex: 0;
+        margin: 0;
+    }
+
+}
+
+
+
+
+/* Desktop */
+@media screen and (min-width: 960px) {
+body {
+    padding: 0 0;
+}
+
+
+
+}
