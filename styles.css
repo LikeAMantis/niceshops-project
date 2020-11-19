@@ -46,9 +46,6 @@ img {
     width: 100%;
     position: relative;
 }
-/* div, header {
-    border: solid 1px
-} */
 h1 {
     font-size: 27px;
     line-height: 33px;
@@ -156,7 +153,6 @@ p {
 }
 .eyecatcher-container {
     position: relative;
-    border: solid 1px;
 }
 .eyecatcher {
     display: flex;
